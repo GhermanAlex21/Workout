@@ -1,0 +1,24 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/toolbar_color_control_normal </item>
+    </style>
+    <style name="ExerciseStatusItem">
+
+        <item name="android:background">@drawable/item_circular_color_gray_background</item>
+    </style>
+
+    <style name="ExerciseStatusItemAccent">
+
+        <item name="android:background">@drawable/item_circular_color_accent_background</item>
+    </style>
+
+
+</resources>
